@@ -63,14 +63,36 @@ main {
   height: 100vh;
 }
 
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+}
+
 .container {
-  flex-wrap: wrap;
-  gap: 1000px;
-  width: 600px;
-  height: 500px;
-  background-color: #f4f4f4;
-  padding: 20px;
-  border: 1px solid #ccc;
+  display: flex;
+  justify-content: flex-end; /* Posiziona l'aside a destra dello schermo */
+  align-items: center; /* Centra verticalmente */
+  height: 300px;
+  width: 500px;
+}
+
+aside {
+  background-color: #ffffff;
+  padding: 100px;
+  width: 2000px;
+  border: 1px solid #ddd;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap; /* Permette ai pulsanti di andare su più righe */
+  gap: 10px; /* Spazio tra i pulsanti */
+  justify-content: center; /* Centra i pulsanti */
+}
+
+.button:hover {
+  background-color: #0056b3;
 }
 
 .container2 {
