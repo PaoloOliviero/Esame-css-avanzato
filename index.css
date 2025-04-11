@@ -71,8 +71,8 @@ body {
 
 .container {
   display: flex;
-  justify-content: flex-end; /* Posiziona l'aside a destra dello schermo */
-  align-items: center; /* Centra verticalmente */
+  justify-content: flex-end;
+  align-items: center;
   height: 300px;
   width: 500px;
 }
@@ -86,9 +86,9 @@ aside {
 
 form {
   display: flex;
-  flex-wrap: wrap; /* Permette ai pulsanti di andare su più righe */
-  gap: 10px; /* Spazio tra i pulsanti */
-  justify-content: center; /* Centra i pulsanti */
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
 }
 
 .button:hover {
