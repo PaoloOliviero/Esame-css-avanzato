@@ -41,7 +41,7 @@ ul li a:hover {
 }
 
 ul li button {
-  background-color: #007acc;
+  background-color: #000000;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -52,7 +52,7 @@ ul li button {
 }
 
 ul li button:hover {
-  background-color: #005fa3;
+  background-color: #000000;
 }
 
 main {
@@ -92,7 +92,7 @@ form {
 }
 
 .button:hover {
-  background-color: #0056b3;
+  background-color: #000000;
 }
 
 .container2 {
