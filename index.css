@@ -92,12 +92,6 @@ main {
   padding-right: 300px;
 }
 
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  height: 100vh;
-}
-
 .container {
   display: flex;
   flex-direction: column;
@@ -177,7 +171,7 @@ body {
 }
 
 .article img {
-  width: 200px;
+  width: 320px;
   overflow: hidden;
   object-fit: cover;
   align-self: flex-start;
