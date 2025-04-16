@@ -163,5 +163,24 @@
         </aside>
       </div>
     </main>
+
+    <script>
+      window.addEventListener("scroll", () => {
+        const heroSection = document.querySelector(".curioso");
+        const navbar = document.querySelector("header");
+        const mainButton = document.querySelector("ul li button");
+
+        const heroOffsetTop = heroSection.offsetTop;
+        const scrollPosition = window.scrollY;
+
+        if (scrollPosition + 50 > heroOffsetTop + heroSection.offsetHeight) {
+          navbar.classList.add("navbar-bianca");
+          mainButton.classList.add("bottone-verde");
+        } else {
+          navbar.classList.remove("navbar-bianca");
+          mainButton.classList.remove("bottone-verde");
+        }
+      });
+    </script>
   </body>
 </html>
